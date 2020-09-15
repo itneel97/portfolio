@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classes from './Header.module.css';
 import Aux from '../../hoc/Auxiliary/Auxiliary'
 import '../../App.module.css';
-// import SideDrawer from './SideDrawer/SideDrawer';
 
 class Header extends Component {
      state = {
@@ -21,7 +20,7 @@ class Header extends Component {
         return (
 
             <Aux>
-                <div className={classes.body} >
+                <div className={ classes.Main} >
                     <div className={this.state.navOpen ? classes.navopen: classes.header}>
                         <div className={classes.logo}>
                             <div className={classes.devneel}> // dev neel</div>
@@ -37,10 +36,10 @@ class Header extends Component {
                                 <li className={classes.nav__item} onClick={this.toggleHandler} ><a href="#work" className={classes.nav__link}>My Work</a></li>
                             </ul>
                         </nav>
-
                     </div>
                 </div>
-
+                    
+               
             </Aux>
 
         );
