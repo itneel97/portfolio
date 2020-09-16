@@ -44,24 +44,6 @@ img {
   outline-offset: 3px;
 }
 
-.btn {
-  display: inline-block;
-  padding: .5em 2.5em;
-  background: var(--clr-accent);
-  color: var(--clr-dark);
-  text-decoration: none;
-  cursor: pointer;
-  font-size: .8rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: var(--fw-bold);
-  transition: transform 200ms ease-in-out;
-}
-
-.btn:hover {
-  transform: scale(1.1)
-}
-
 h1, h2, h3 {
   line-height: 1;
   margin: 0;
@@ -75,6 +57,7 @@ h2 {
   font-size: var(--fs-h2);
 }
 
+ 
 h3 {
   font-size: var(--fs-h3);
 }

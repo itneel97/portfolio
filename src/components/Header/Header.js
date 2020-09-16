@@ -23,7 +23,7 @@ class Header extends Component {
                 <div className={ classes.Main} >
                     <div className={this.state.navOpen ? classes.navopen: classes.header}>
                         <div className={classes.logo}>
-                            <div className={classes.devneel}> // dev neel</div>
+                            <div className={classes.devneel}>  dev neel</div>
                         </div>
                         <button className={classes.navToggle} onClick={this.toggleHandler} >
                             <span className={classes.hamburger}></span>
