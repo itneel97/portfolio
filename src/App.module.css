@@ -61,26 +61,3 @@ h2 {
 h3 {
   font-size: var(--fs-h3);
 }
-
-/* 
-.section__title {
-  margin-bottom: .25em;
-} */
-
-/* .section__subtitle {
-  margin: 0px;
-  font-size: var(--fs-h3)
-} */
-
-/* .section__subtitleIntro,  .section__subtitleAbout {
-  background: var(--clr-accent);
-  padding: .25em 1em;
-  font-family: var(--ff-secondary);
-  margin-bottom: 1em;
-} */
-
-.section__subtitleWork {
-  color: var(--clr-accent);
-  font-weight: var(--fw-bold);
-  margin-bottom: 2em;
-}

@@ -1,12 +1,12 @@
 .services__ {
-    background: var(--clr-dark);
+    background: var(--clr-light);
     /* background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/background.jpg');
     background-color: var(--clr-light);
     background-image: url(../img/background.jpg);
     background:rgba(0,0,0,0.6);
     opacity: 0.4; */
     background-size: cover;
-    color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
     width: 3em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-light);
+    background: var(--clr-dark);
     opacity: 0.25;
 }
 

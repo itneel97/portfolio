@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+// import { Route, Switch } from 'react-router-dom';
+
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 const app = (
   <BrowserRouter>
+    <Header />
     <App />
+    <Footer />
   </BrowserRouter>
 );
 
