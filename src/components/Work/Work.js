@@ -16,7 +16,7 @@ const work = (props) => {
             <a href={link1} target = "_blank" rel = "noopener noreferrer" className={classes.portfolio__item}>
                 <img src={img1} alt="" className={classes.portfolio__img} />
             </a>
-            <a href="  " target = "_blank" rel = "noopener noreferrer" className={classes.portfolio__item}>
+            <a href="https://neel-patel-todoapp.netlify.app/" target = "_blank" rel = "noopener noreferrer" className={classes.portfolio__item}>
                 <img src={img2} alt="" className={classes.portfolio__img} />
             </a>           
         </div>
