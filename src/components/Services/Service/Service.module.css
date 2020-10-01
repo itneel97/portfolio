@@ -1,6 +1,6 @@
 .service {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 @media(min-width: 600px) {

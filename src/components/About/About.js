@@ -14,15 +14,16 @@ const about = (props) => {
             <div className={classes.Main}>
                 <section className={classes.aboutMe} >
                     <h2 className={attachedClasses1.join(" ")}>Who I am</h2>
-                    <p className={attachedClasses2.join(" ")} >Designer and developer </p>
+                    <p className={attachedClasses2.join(" ")} >Developer and Designer</p>
 
                     <div>
-                        <p>The opportunity to contribute to the company and experience real-world design would be invaluable,
-                        and I believe that my ability could be perfectly applied to this profile.
-                Through SOMETHING came to my attention.</p>
-                        <p>The opportunity to contribute to the company and experience real-world design would be invaluable,
-                        and I believe that my ability could be perfectly applied to this profile.
-                Through SOMETHING came to my attention.</p>
+                        <p>I’m naturally inquisitive and enjoy figuring out how things work.
+                        I have a defined sense of aesthetic and enjoy making thoughtful,
+                        engaging, and functional web applications that have a simple,
+                            clean and distinct design.</p>
+                        <p>I’ve built web applications using React and Node module
+                        and have a strong foundation in web design and development.</p>
+                        <p>When I'm not coding, I enjoy spending time with friends, play badminton and listen music.</p>
                     </div>
                     <img src={neelphoto} alt=" " className={classes.aboutMe__img} />
                 </section>

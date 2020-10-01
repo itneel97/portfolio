@@ -34,15 +34,15 @@ class Header extends Component {
                             <ul className={classes.nav__list}>
                                 <li className={classes.nav__item} onClick={this.toggleHandler} >
                                     <NavLink exact className={classes.nav__link} activeClassName="active" to="/" >Home</NavLink>
-                                </li>
-                                <li className={classes.nav__item} onClick={this.toggleHandler} >
-                                    <NavLink exact className={classes.nav__link} activeClassName="active" to="/Services" >My service</NavLink>
-                                </li>
+                                </li>                                
                                 <li className={classes.nav__item} onClick={this.toggleHandler} >
                                     <NavLink exact className={classes.nav__link} activeClassName="active" to="/About" >About me</NavLink>
                                 </li>
                                 <li className={classes.nav__item} onClick={this.toggleHandler} >
                                     <NavLink exact className={classes.nav__link} activeClassName="active" to="/Work" >My Work</NavLink>
+                                </li>
+                                <li className={classes.nav__item} onClick={this.toggleHandler} >
+                                    <NavLink exact className={classes.nav__link} activeClassName="active" to="/Skills" >My skills</NavLink>
                                 </li>
                                 <li className={classes.nav__item} onClick={this.toggleHandler} >
                                     <NavLink exact className={classes.nav__link} activeClassName="active" to="/Resume" >My Resume</NavLink>

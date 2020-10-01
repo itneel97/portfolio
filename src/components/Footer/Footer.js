@@ -15,21 +15,17 @@ class Footer extends Component {
                         <a href="mailto:it.neel97@yahoo.com" className={classes.footer__link} >it.neel97@yahoo.com</a>
                         <ul className={classes.socialList} >
                             <li classNames={classes.socialList__item} >
-                                <a className={classes.socialList__link} href="https://github.com">
+                                <a className={classes.socialList__link} href="https://github.com/itneel97">
                                     <FontAwesomeIcon icon={faGithub} size="lg" />
                                 </a>
                             </li>
                             <li classNames={classes.socialList__item}>
-                                <a className={classes.socialList__link} href="https://linkedin.com">
+                                <a className={classes.socialList__link} href="https://www.linkedin.com/in/neel-patel-671ab8186">
                                     <FontAwesomeIcon icon={faLinkedin} size="lg" />
                                 </a>
                             </li>
-                            <li classNames={classes.socialList__item}>
-                                <a className={classes.socialList__link} href="https://instagram.com">
-                                    <FontAwesomeIcon icon={faInstagram} size="lg" />
-                                </a>
-                            </li>
                         </ul>
+                        <h3>built with react </h3>
                     </div>
 
                 </div>

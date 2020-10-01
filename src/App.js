@@ -3,7 +3,7 @@ import Aux from './hoc/Auxiliary/Auxiliary';
 import { Route, Switch } from 'react-router-dom';
 
 import Home from './components/Home/Home';
-import Services from './components/Services/Services';
+import Skills from './components/Services/Services';
 import About from './components/About/About';
 import Work from './components/Work/Work';
 import Resume from './components/Resume/Resume';
@@ -18,7 +18,7 @@ class App extends Component {
       <Aux>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/Services" component={Services} />
+          <Route exact path="/Skills" component={Skills} />
           <Route exact path="/About" component={About} />          
           <Route exact path="/Work" component={Work} />          
           <Route exact path="/Resume" component={Resume} />          

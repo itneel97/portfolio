@@ -18,7 +18,7 @@ const home = (props) => {
                     <h1 className={attachedClasses1.join(" ")} >
                         Hi, I am <strong> Neel Patel</strong>
                     </h1>
-                    <p className={attachedClasses2.join(" ")}  > front-end dev</p>
+                    <p className={attachedClasses2.join(" ")}  > FRONT-END DEV</p>
                     <img src={neelPhoto} className={classes.intro__img} alt=" " />
                 </section>
 

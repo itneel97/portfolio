@@ -30,6 +30,10 @@
   }
 }
 
+strong {
+  font-weight: var(--fw-bold)
+}
+
 section {
   padding: 5em 2em;
 }
